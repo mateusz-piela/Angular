@@ -1,0 +1,36 @@
+#container{
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 20px;
+}
+
+ul{
+    width: 80%;
+    background: linear-gradient(to right, #232526, #414345); 
+    display: flex;
+    border-radius: 25px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+}
